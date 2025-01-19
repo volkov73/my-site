@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+    background: -webkit-linear-gradient(180deg, #727272,#c0c0c0,#c0c0c0);
+    background: linear-gradient(180deg, #727272,#c0c0c0,#c0c0c0);      
+    background-repeat: no-repeat;                              
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    padding: 25px 0px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo, .logo_footer {
+    height: 50px;
+    width: 50px;
+}
+
+.header__list {
+    display: flex;
+    padding-right: 200px;
+    gap: 20px;
+}
+
+.header__nav a:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.main .container {
+    display: flex;
+    justify-content:space-between;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap:10px;
+}
+.about_me {
+    text-align: center;
+    width: 50%;
+    
+}
+.my_foto {
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: #727272;
+}
+
+.my_goal {
+    text-align: center;
+}
+
+ol.my_goal_table {
+    text-align: left;
+}
+
+.skills {
+    justify-content: right;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.my__skills_logo {
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+}
+
+.html_logo, .css_logo, .git_logo {
+    width: 70px;
+    height: 70px;
+}
+
+.footer {
+    background-color: #727272;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 25px;
+}
+
+.footer_contacts {
+    display: flex;
+    justify-content: space-around;
+}
+
